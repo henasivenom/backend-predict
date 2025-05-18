@@ -9,7 +9,7 @@ app = FastAPI()
 # Add CORS middleware IMMEDIATELY after app creation
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8081"],  # Only allow your frontend
+    allow_origins=["https://frontend-pi-fawn-51.vercel.app/"],  # Only allow your frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
