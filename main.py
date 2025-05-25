@@ -11,7 +11,7 @@ app = FastAPI()
 # Add CORS middleware IMMEDIATELY after app creation
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://frontend-predict-cdf1v4bei-henasivenoms-projects.vercel.app/"],  # Only allow your frontend
+    allow_origins=["https://frontend-predict-cdf1v4bei-henasivenoms-projects.vercel.app"],  # Only allow your frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
